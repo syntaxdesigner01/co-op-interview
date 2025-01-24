@@ -9,9 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#1E1E1E",
+        secondary: "#E6B8D4",
+        background: "#440080",
       },
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
+        Asap: ["Asap", "sans-serif"],
+      }
     },
   },
   plugins: [],

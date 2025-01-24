@@ -16,9 +16,11 @@ export default function HeaderComponent({
     <>
       <header className=" mt-5 bg-background text-white text-center h-[60vh]">
         <section className="container mx-auto p-4 pt-20 flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-semibold font-Asap w-[60vw] leading-normal ">
-            {title}
-          </h1>
+          {title && (
+            <h1 className="text-4xl font-semibold font-Asap w-[60vw] leading-normal ">
+              {title}
+            </h1>
+          )}
           {subtitle && (
             <section>
               <p>{subtitle}</p>
@@ -27,7 +29,8 @@ export default function HeaderComponent({
           )}
         </section>
       </header>
-        {children}
+
+      {children}
     </>
   );
 }

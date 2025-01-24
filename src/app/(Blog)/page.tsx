@@ -19,7 +19,7 @@ export default function Home() {
 
           <section className="absolute top-[15vh] text-[#FEFEFE] flex flex-col justify-between items-center gap-10 font-Inter">
             <p className="border-2 px-4 py-2 rounded-md  ">Blogs</p>
-            <p className="text-xl font-Asap font-light text-center w-[50vw] leading-normal ">
+            <p className="text-xl font-Asap font-medium text-center w-[50vw] leading-relaxed ">
               Meet Chain Coop, our business-oriented community, designed into a
               cooperative with open membership, through Chain Wallet. Simple,
               safe and transparent way.

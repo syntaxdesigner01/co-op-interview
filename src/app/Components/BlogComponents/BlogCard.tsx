@@ -50,8 +50,8 @@ export default function BlogCard() {
                 <Image
                   src={post.image}
                   alt="blog image"
-                  width={100}
-                  height={200}
+                  width={300}
+                  height={300}
                   className="w-full h-[200px] object-cover rounded-md"
                 />
               </section>

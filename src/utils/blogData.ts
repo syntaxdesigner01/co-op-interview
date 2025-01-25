@@ -55,3 +55,20 @@ export const blogData = {
         }
     ]
 };
+
+
+export const recentBlog = {
+    blogs: [
+        {
+            id: 1,
+            "title": "Articles of investments chain blocks",
+            "author": "John Smith",
+            "date": "May 10, 2024",
+            "content": "Our AI-Driven Learning Platform will change how members learn and growOur AI-Driven Learning Platform will change how members learn and grow.Our AI-Driven Learning Platform will change how members learn and grow.Our AI-Driven Learning Platform will change how members learn and grow.Our AI-Driven Learning Platform will change how members learn and grow.Our AI-Driven Learning Platform will change how members learn and grow..",
+            "image": '/blog/blogImage1.png',
+            "authorImage": "/blog/author.png",
+            "popular": false
+        },
+
+    ]
+}

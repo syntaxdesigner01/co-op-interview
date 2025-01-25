@@ -3,6 +3,7 @@ import React from "react";
 import HeaderComponent from "../Components/GeneralComponents/HeaderComponent";
 import Image from "next/image";
 import BlogComponent from "../Components/BlogComponents/BlogComponent";
+import CategoriesComponent from "../Components/BlogComponents/HeroSection/CategoriesComponent";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         </section>
       </HeaderComponent>
 
+<CategoriesComponent/>
 
       <BlogComponent/>
     </>

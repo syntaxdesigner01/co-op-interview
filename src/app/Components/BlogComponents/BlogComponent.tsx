@@ -10,12 +10,12 @@ export default function BlogComponent() {
         <BlogCard />
       </section>
 
-      <section className="mt-20">
-        <BlogSectionTittle title="Block Chain" link="" />
+      <section className="mt-16">
+        <BlogSectionTittle title="Saving Chain" link="" />
         <BlogCard />
       </section>
-      <section className="mt-20">
-        <BlogSectionTittle title="Block Chain" link="" />
+      <section className="mt-16">
+        <BlogSectionTittle title="Group Savings" link="" />
         <BlogCard />
       </section>
     </section>

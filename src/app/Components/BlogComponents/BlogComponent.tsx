@@ -7,7 +7,7 @@ export default function BlogComponent() {
       <section >
         <BlogCard />
       </section>
-
+{/* 
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl font-bold text-purple-700">Block Chain</h1>
@@ -127,7 +127,7 @@ export default function BlogComponent() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

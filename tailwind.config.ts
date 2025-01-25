@@ -12,6 +12,7 @@ export default {
         primary: "#1E1E1E",
         secondary: "#E6B8D4",
         background: "#440080",
+        warning:"#CB6125"
       },
       fontFamily: {
         Inter: ["Inter", "sans-serif"],

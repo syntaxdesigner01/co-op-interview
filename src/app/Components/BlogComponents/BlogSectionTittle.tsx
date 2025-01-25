@@ -12,7 +12,7 @@ export default function BlogSectionTittle({
 }) {
   const router = useRouter();
   return (
-    <section className="flex justify-between items-center mb-6 pr-[5%] font-Asap">
+    <section className="flex justify-between items-center mb-6 pr-[3%] font-Asap">
       <section className="flex gap-4 items-center">
         <h1 className="text-3xl font-bold text-background">{title}</h1>
         <section className="bg-[#C5B0D878] h-16 w-16 flex justify-center items-center rounded-full">

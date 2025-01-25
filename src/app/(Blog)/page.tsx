@@ -4,6 +4,7 @@ import HeaderComponent from "../Components/GeneralComponents/HeaderComponent";
 import Image from "next/image";
 import BlogComponent from "../Components/BlogComponents/BlogComponent";
 import CategoriesComponent from "../Components/BlogComponents/HeroSection/CategoriesComponent";
+import FooterComponent from "../Components/GeneralComponents/FooterComponent";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
 <CategoriesComponent/>
 
       <BlogComponent/>
+
+      <FooterComponent/>
     </>
   );
 }

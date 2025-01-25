@@ -29,7 +29,7 @@ export default function BlogCard() {
     <Swiper
       className="mySwiper relative font-Asap"
       slidesPerView={3}
-      spaceBetween={15}
+      spaceBetween={20}
       pagination={{ clickable: true }}
     >
       <section className="pb-20">
@@ -37,7 +37,7 @@ export default function BlogCard() {
           <SwiperSlide key={post.id} className="border-2 rounded-xl shadow-md ">
             <section
               key={post.id}
-              className="w-full border-1/2  rounded-xl h-[70vh] relative"
+              className="w-full border-1/2  rounded-xl  relative"
             >
               <section className="">
                 <p>

@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 export default function BlogComponent() {
   return (
-    <section className="container mx-auto mb-10">
+    <section className="container ml-10 w-full mb-10 ">
       <section >
         <BlogCard />
       </section>

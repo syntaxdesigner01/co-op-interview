@@ -2,6 +2,7 @@ import NavBarComponents from "@/app/Components/GeneralComponents/NavBarComponent
 import React from "react";
 import HeaderComponent from "../Components/GeneralComponents/HeaderComponent";
 import Image from "next/image";
+import BlogComponent from "../Components/BlogComponents/BlogComponent";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
           </section>
         </section>
       </HeaderComponent>
+
+
+      <BlogComponent/>
     </>
   );
 }

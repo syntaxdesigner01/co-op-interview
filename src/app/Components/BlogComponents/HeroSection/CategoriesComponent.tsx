@@ -20,7 +20,7 @@ export default function CategoriesComponent() {
   }
 
   return (
-    <>
+    <section>
       <h1 className="text-3xl font-bold pb-10 px-10">Recent Post</h1>
       <section className="flex px-10 justify-between mb-20">
         <aside>
@@ -124,6 +124,6 @@ export default function CategoriesComponent() {
           </ul>
         </aside>
       </section>
-    </>
+    </section>
   );
 }

@@ -27,7 +27,7 @@ export default function BlogCard() {
 
   return (
     <Swiper
-      className="mySwiper relative font-Asap"
+      className="mySwiper relative font-Asap  "
       slidesPerView={3}
       spaceBetween={20}
       pagination={{ clickable: true }}
@@ -58,7 +58,7 @@ export default function BlogCard() {
 
               <section className="p-4 ">
                 <section className="flex w-full justify-between gap-4 border-b-2">
-                  <h1 className="text-2xl font-bold text-background font-Asap mb-2">
+                  <h1 className="text-xl font-bold text-background font-Asap mb-2">
                     {post.title}
                   </h1>
                   <section>

@@ -7,7 +7,7 @@ export default function NavBarComponents() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center h-16 w-full bg-white text-black md:px-20 px-4  py-10">
+    <nav className="flex justify-between items-center h-16 w-full bg-white text-black md:px-10 px-4  py-10">
       <section>
         <Image
           src="/logo.png"
@@ -31,7 +31,7 @@ export default function NavBarComponents() {
         </button>
       </section>
 
-      <section>
+      <section className=" md:hidden">
         <button onClick={() => setShowMenu(!showMenu)}>
           {showMenu ? (
             <IoClose size={40} className="text-orange-600" />

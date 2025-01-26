@@ -42,7 +42,7 @@ export default function NavBarComponents() {
       </section>
 
       {showMenu && (
-        <div className="fixed top-0 left-0 w-[90vw] font-semibold z-50 text-xl h-full text-black bg-white p-4 flex flex-col items-center justify-center md:hidden">
+        <div className="fixed top-0 left-0 w-[90vw] font-semibold z-50 text-xl h-full text-black bg-white p-4 flex flex-col items-center justify-center md:hidden transition-transform duration-5000 ease-in-out transform translate-x-0">
           <ul className="flex flex-col gap-10">
             <li>Why Chain Co-op</li>
             <li>Our Story </li>

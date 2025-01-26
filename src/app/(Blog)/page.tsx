@@ -31,11 +31,11 @@ export default function Home() {
         </section>
       </HeaderComponent>
 
-<CategoriesComponent/>
+      <CategoriesComponent />
 
-      <BlogComponent/>
+      <BlogComponent />
 
-      <FooterComponent/>
+      <FooterComponent />
     </>
   );
 }

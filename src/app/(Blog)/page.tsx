@@ -4,13 +4,14 @@ import HeaderComponent from "../Components/GeneralComponents/HeaderComponent";
 import Image from "next/image";
 import BlogComponent from "../Components/BlogComponents/BlogComponent";
 import CategoriesComponent from "../Components/BlogComponents/HeroSection/CategoriesComponent";
+import FooterComponent from "../Components/GeneralComponents/FooterComponent";
 
 export default function Home() {
   return (
     <>
       <NavBarComponents />
       <HeaderComponent title="Discover exclusives articles of investments  chain blocks">
-        <section className="container mx-auto relative top-[-25vh] flex flex-col items-center justify-center">
+        <section className="container mx-auto relative top-[-25vh] md:flex flex-col items-center justify-center hidden ">
           <Image
             src={"/headerBg.png"}
             alt="Article image"
@@ -30,9 +31,11 @@ export default function Home() {
         </section>
       </HeaderComponent>
 
-<CategoriesComponent/>
+      <CategoriesComponent />
 
-      <BlogComponent/>
+      <BlogComponent />
+
+      <FooterComponent />
     </>
   );
 }

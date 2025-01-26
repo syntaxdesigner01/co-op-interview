@@ -31,7 +31,7 @@ export default function FooterComponent() {
         </section>
       </section>
 
-      <section className="p-10 px-4 bg-background text-white  pt-[16%]  w-full">
+      <section className="p-10 px-10 bg-background text-white  pt-[16%]  w-full">
         <section className="flex gap-4 justify-between border-b-4 pb-10 border-white">
           <section className="w-[30vw] flex flex-col gap-4">
             <h1 className="font-semibold">

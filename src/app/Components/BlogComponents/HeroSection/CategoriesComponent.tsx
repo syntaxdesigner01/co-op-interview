@@ -21,10 +21,10 @@ export default function CategoriesComponent() {
 
   return (
     <section>
-      <h1 className="text-3xl font-bold pb-10 px-10">Recent Post</h1>
-      <section className="flex px-10 justify-between mb-20">
+      <h1 className="text-3xl font-bold pb-10 px-4 md:px-10  hidden md:block">Recent Post</h1>
+      <section className="flex px-10 flex-col-reverse md:flex-row justify-between mb-20 gap-20">
         <aside>
-          <section className="w-[30vw] border-2 rounded-xl shadow-md">
+          <section className="md:w-[30vw] w-full border-2 rounded-xl shadow-md">
             {recentBlog.blogs.map((post) => (
               <section
                 key={post.id}
@@ -88,7 +88,8 @@ export default function CategoriesComponent() {
           </section>
         </aside>
 
-        <aside className="w-[35%] border-2 shadow-xl p-6 rounded-2xl font-medium   bg-[#f8f6fA] font-Asap">
+
+        <aside className="md:w-[35%] w-full border-2 shadow-xl p-6 rounded-2xl font-medium mt-10 md:mt-0  bg-[#f8f6fA] font-Asap">
           <h2 className="text-center font-semibold text-3xl ">Categories</h2>
           <p className="flex items-center gap-4 pt-10 text-2xl">
             Select blog

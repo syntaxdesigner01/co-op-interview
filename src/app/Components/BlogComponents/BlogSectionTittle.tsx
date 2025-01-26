@@ -12,10 +12,12 @@ export default function BlogSectionTittle({
 }) {
   const router = useRouter();
   return (
-    <section className="flex justify-between items-center mb-6 pr-[3%] font-Asap">
+    <section className="flex justify-between items-center mb-6 md:pr-[3%]  font-Asap">
       <section className="flex gap-4 items-center">
-        <h1 className="text-3xl font-bold text-background">{title}</h1>
-        <section className="bg-[#C5B0D878] h-16 w-16 flex justify-center items-center rounded-full">
+        <h1 className="text-xl  md:text-3xl font-bold text-background">
+          {title}
+        </h1>
+        <section className="bg-[#C5B0D878] md:h-16 w-12 md:w-16 h-12 flex justify-center items-center rounded-full">
           <Image
             src={"/blog/bubble.png"}
             alt="blog image"

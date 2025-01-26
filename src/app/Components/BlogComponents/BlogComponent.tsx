@@ -39,7 +39,7 @@ export default function BlogComponent() {
         </section>
       </section>
 
-      <section className=" w-full  ml-10 mb-20 container h-[220vh] overflow-hidden ">
+      <section className=" w-full  md:ml-10 ml-4 mb-20 container h-[220vh] overflow-hidden ">
         <section className="">
           <BlogSectionTittle title="Block Chain" link="" />
           <BlogCard />
